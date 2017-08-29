@@ -14,7 +14,7 @@
     <header>
       <div class="container">
         <div id="branding">
-          <img src="<./IMG/Logo.png">
+          <img src="./img/logo.png" style="width:128px;height:128px;">
         </div>
         <nav>
           <ul>
@@ -22,6 +22,8 @@
           <li><a href="Password.html">Passwords</a></li>
           <li><a href="Encryption.html">Encryption</a></li>
           <li class="current"><a href="Firewall.html">Firewall</a></li>
+          <li><a href="AntiVirus.html">Antivirus</a></li>
+          <li><a href="bibliography.html">bibliography</a></li>
           </ul>
         </nav>
       </div>
@@ -30,9 +32,17 @@
 
             <div class="container">
               <article id ="main-col">
-              <h1 class ="page-title">What is an Firewall</h1>
+              <h1 class ="page-title">What is a Firewall</h1>
               <p>
-                A firewall is when
+                Firewall works to protect users and their information from the bad side of the internet.
+                Like a wall that burns the bad side away.
+                It filters information thats coming through online and if it is flagged then it is not allowed through.
+                <p>Firewalls use either one to three methods to determine if information coming through online will get flagged
+                  <li><b>Packet filtering</b> - Packet or small chunks of data are tested through filters. If deemed worthy then it will be allowed through</li>
+                  <li><b>Proxy  service</b> - Information online is retrieved by the firewall then sent back
+                  <li><b>Stateful Inspection</b> - Compares specific key parts of the packet with a database of trusted information.
+                    If the data seems similar or reasonable enough then it is allowed through.</li>
+
                 <p>
                 </article>
         </section>
@@ -47,7 +57,12 @@
           </div>
         </section>
 
+        <section>
+        <div>
+          <footer>
+            <p>SecuNet, Copyright 2017</p>
+          </footer>
+        </div>
         </section>
-
   </body>
 </html>
